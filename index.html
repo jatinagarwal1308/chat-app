@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat app</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="display" style="margin: 5px; background-color: #F5F5F5;"></div>
+<input type="text" id="message">
+<button id="send" onclick="send()">Send</button>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAaznHOfFvkQzPRGgbPeIFqVgrSdatwgFo",
+    authDomain: "testproject-16722.firebaseapp.com",
+    databaseURL: "https://testproject-16722.firebaseio.com",
+    projectId: "testproject-16722",
+    storageBucket: "",
+    messagingSenderId: "526751011245",
+    appId: "1:526751011245:web:8a12f540e802b11e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="java.js"></script>
+</body>
+</html>

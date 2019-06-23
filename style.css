@@ -1,0 +1,56 @@
+body{
+	  background-image: url("download.jpg");
+	  display: inline-block;
+	  position: absolute;
+	  top: 150px;
+	  left: 600px;
+	  border-radius: 5px;
+	  border: solid 6px;
+	  border-color: yellow;
+}
+
+#send{
+    height: 50px;
+    width: 50px;
+	border-radius: 100%;
+	opacity: 0.6;
+	background-color: #32CD32;
+	font-weight: bolder;
+	font-size: 30; 
+
+}
+#send:hover{opacity: 1;}
+
+input{
+       font-weight: bold;
+       font-size: 15px;
+       padding: 6px 2px;
+       opacity: 0.6;
+       border: solid 3px;
+       border-color: black;
+       display: inline-block;
+       margin: 5px;
+       
+     }
+     input:hover{opacity: 1}
+
+p{
+	border-radius: 5px;
+	background-color: ;
+	display: inline-block;
+    height: 10px;
+    margin: 2px;
+}
+
+
+#name{
+       font-weight: bolder;
+	   font-size: 16px; 
+}
+
+#text{
+       font-weight: bold;
+	   font-size: 13px; 
+	   background-color: #ADFF2F;
+	   padding: 10px;
+}
