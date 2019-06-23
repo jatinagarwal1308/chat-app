@@ -1,4 +1,5 @@
 let database = firebase.database();
+let friendname = ""; 
 
 function send() {
 	let message = document.getElementById("message").value;
@@ -28,21 +29,19 @@ function read()
     for(messagekey in messages)
     {     
     	let message = messages[messagekey];
-        let friendname = ""; 
 
         if(message.author == "Jatin")
     	{
-             $("#display").append(`<!-- <p id= "name">${message.author}</p> --> <p id="text">${message.message}</p><br>`)  //your message. This will be displayed on right side of screen 
+             $("#display").append(`<div id ="mymessage" style ="text-align: right;"> <p id="text">${message.message} </p> </div>`)  //your message. This will be displayed on right side of screen 
         }
          
         else
         {
-            $("#display").append(`<!-- <p id= "name">${message.author}</p> --> <p id="text">${message.message}</p><br>`)   //your friend's message. This will be displayed on left side of screen
+            $("#display").append(`<div id ="friendmessage"><p id="histext">${message.message}</p></div>`)   //your friend's message. This will be displayed on left side of screen
              friendname = message.author;
         }
-        document.getElementById("friend").innerHTML = friendname;
     }
-
+          document.getElementById("friend").innerHTML = friendname;
     }); 
 
 }
