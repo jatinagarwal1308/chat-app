@@ -10,24 +10,28 @@ body{
 }
 
 #send{
-    height: 50px;
-    width: 50px;
+    height: 43px;
+    width: 43px;
 	border-radius: 100%;
-	opacity: 0.6;
-	background-color: #32CD32;
+	opacity: 0.8;
+	background-color: #32CD32;   //green
 	font-weight: bolder;
-	font-size: 30; 
-
+	font-family: cursive;
+	position: relative;
+    right: 5px;
+    bottom: 5px;
 }
 #send:hover{opacity: 1;}
 
 input{
+	   font-family: cursive;
        font-weight: bold;
        font-size: 15px;
-       padding: 6px 2px;
+       padding: 6px 6px;
        opacity: 0.6;
        border: solid 3px;
        border-color: black;
+       border-radius: 24px;
        display: inline-block;
        margin: 5px;
        
@@ -36,9 +40,8 @@ input{
 
 p{
 	border-radius: 5px;
-	background-color: ;
 	display: inline-block;
-    height: 10px;
+    height: 17px;
     margin: 2px;
 }
 
@@ -50,7 +53,8 @@ p{
 
 #text{
        font-weight: bold;
-	   font-size: 13px; 
-	   background-color: #ADFF2F;
-	   padding: 10px;
+	   font-size: 14px; 
+	   background-color: #ADFF2F;  //light green
+	   padding: 6px 6px;
+	   font-family: cursive;
 }
