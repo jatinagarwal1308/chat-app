@@ -54,7 +54,17 @@ p{
 #text{
        font-weight: bold;
 	   font-size: 14px; 
-	   background-color: #ADFF2F;  //light green
+	   background-color: #ADFF2F;
 	   padding: 6px 6px;
 	   font-family: cursive;
+}
+
+#friend{
+         height: 40px;
+         margin: 5px;
+         font-weight: bold;
+	     font-size: 25px; 
+	     font-family: cursive;
+	     display: inline-block;
+
 }
