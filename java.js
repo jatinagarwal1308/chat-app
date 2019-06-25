@@ -32,12 +32,12 @@ function read()
 
         if(message.author == "Jatin")
     	{
-             $("#display").append(`<div id ="mymessage" style ="text-align: right; margin: 2px;" > <p id="text">${message.message} </p> </div>`)  //your message. This will be displayed on right side of screen 
+             $("#display").append(`<div id ="mymessage" style ="text-align: right; margin: 2px; " > <p id="text">${message.message} </p> </div>`)  //your message. This will be displayed on right side of screen 
         }
          
         else
         {
-            $("#display").append(`<div id ="friendmessage" style ="margin: 2px;" > <p id="histext">${message.message}</p></div>`)   //your friend's message. This will be displayed on left side of screen
+            $("#display").append(`<div id ="friendmessage" style ="margin: 2px; width: 200px; " > <p id="histext">${message.message}</p></div>`)   //your friend's message. This will be displayed on left side of screen
              friendname = message.author;
         }
     }

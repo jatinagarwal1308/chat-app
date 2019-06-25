@@ -1,4 +1,6 @@
-body{
+body{background-image: url("download.jpg");}
+
+div.body{
 	  background-image: url("download.jpg");
 	  display: inline-block;
 	  position: absolute;
@@ -7,6 +9,20 @@ body{
 	  border-radius: 5px;
 	  border: solid 6px;
 	  border-color: yellow;
+}
+
+h1{
+	background-color: grey;
+	font-family: cursive;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 15px;
+    display: inline-block;
+    width: 280px;
+    border: solid 8px;
+    border-radius: 10px;
+    border-color: yellow;
+    text-align: center;
 }
 
 #send{
@@ -41,7 +57,6 @@ input{
 p{
 	border-radius: 5px;
 	display: inline-block;
-    height: 17px;
     margin: 2px;
 }
 
@@ -77,6 +92,8 @@ p{
 	     font-size: 25px; 
 	     font-family: cursive;
 	     display: inline-block;
+         border: solid 3px;
          border-radius: 20px;
+         border-color: #ADFF2F;
          background-color: #f5f2d0;
 }
