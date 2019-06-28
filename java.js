@@ -46,4 +46,16 @@ function read()
 
 }
 
+function Delete()
+{
+    database.ref("/chat").remove();
+    // database.ref("/chat").push("Previous messages were deleted");
+}
+
 read();
+
+
+
+
+
+

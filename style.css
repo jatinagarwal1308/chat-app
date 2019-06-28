@@ -11,6 +11,9 @@ div.body{
 	  border-color: yellow;
 }
 
+div.delete{
+	  text-align: right;
+}
 h1{
 	background-color: grey;
 	font-family: cursive;
@@ -92,8 +95,29 @@ p{
 	     font-size: 25px; 
 	     font-family: cursive;
 	     display: inline-block;
-         border: solid 3px;
-         border-radius: 20px;
-         border-color: #ADFF2F;
-         background-color: #f5f2d0;
+	     color: white;
 }
+
+img{
+	  height:30px ; 
+	  width:28px ;
+	  display: inline-block; 
+	  position: absolute;
+	  right: 5px;
+	  top: 5px;
+      border: solid 4px;
+	  border-radius: 5px;
+      opacity: 0.6;
+}
+img:hover{opacity: 1;}
+
+
+
+
+
+
+
+
+
+
+
